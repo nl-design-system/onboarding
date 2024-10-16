@@ -1,18 +1,17 @@
 import {
-  Document,
-  Heading,
   CodeBlock,
+  ColumnLayout,
+  Document,
+  Figure,
+  FigureCaption,
+  Heading,
+  Image,
+  Link,
+  OrderedList,
+  OrderedListItem,
   Surface,
   UnorderedList,
   UnorderedListItem,
-  Link,
-  FigureCaption,
-  Image,
-  Figure,
-  ColumnLayout,
-  OrderedList,
-  OrderedListItem,
-  Code,
 } from "@utrecht/component-library-react/dist/css-module";
 import { Paragraph } from "@nl-design-system-candidate/paragraph-react/css";
 import { Slide } from "./Slide";
