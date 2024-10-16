@@ -9,3 +9,8 @@ body {
   block-size: 100%;
   inline-size: 100%;
 }
+
+.utrecht-figure {
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}

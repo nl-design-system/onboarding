@@ -4,11 +4,12 @@
   --utrecht-link-color: currentColor;
   --utrecht-link-text-decoration-color: currentColor;
   --utrecht-link-active-color: currentColor;
-  --utrecht-link-focus-color: currentColor;
-  --utrecht-link-focus-background-color: currentColor;
+  /* --utrecht-link-focus-color: currentColor; */
   --utrecht-link-hover-color: currentColor;
   --utrecht-link-placeholder-color: currentColor;
   --utrecht-link-visited-color: currentColor;
+  --utrecht-code-block-padding-inline-start: 0;
+  --utrecht-code-block-padding-inline-end: 0;
   position: relative;
   counter-increment: slides;
   background-color: var(--kernteam-slide-background-color);
@@ -47,4 +48,9 @@
 
 .kernteam-slide .utrecht-code-block {
   overflow-x: auto;
+}
+
+.kernteam-slide .utrecht-figure .utrecht-img {
+  max-inline-size: 100%;
+  max-block-size: 50vh;
 }
