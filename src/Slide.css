@@ -1,0 +1,50 @@
+.kernteam-slide {
+  --utrecht-link-color: currentColor;
+  --utrecht-link-color: currentColor;
+  --utrecht-link-color: currentColor;
+  --utrecht-link-text-decoration-color: currentColor;
+  --utrecht-link-active-color: currentColor;
+  --utrecht-link-focus-color: currentColor;
+  --utrecht-link-focus-background-color: currentColor;
+  --utrecht-link-hover-color: currentColor;
+  --utrecht-link-placeholder-color: currentColor;
+  --utrecht-link-visited-color: currentColor;
+  position: relative;
+  counter-increment: slides;
+  background-color: var(--kernteam-slide-background-color);
+  color: var(--kernteam-slide-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .kernteam-slide {
+    width: var(--slides-width);
+    height: var(--slides-height);
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+  }
+
+  .kernteam-slide:nth-child(odd) {
+    background-color: rgba(255 255 255 / 5%);
+  }
+}
+
+@media (max-width: 1200px) {
+  .kernteam-slide {
+    min-height: 80vh;
+  }
+
+  .kernteam-slide + .kernteam-slide {
+    border-top: 1px dashed;
+  }
+}
+
+.kernteam-slide__content {
+  max-inline-size: 80ch;
+}
+
+.kernteam-slide .utrecht-code-block {
+  overflow-x: auto;
+}

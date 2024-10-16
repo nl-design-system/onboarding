@@ -1,0 +1,671 @@
+/**
+ * Do not edit directly
+ * Generated on Wed, 16 Oct 2024 15:20:24 GMT
+ */
+
+.nlds-theme,
+.nlds-theme ::backdrop {
+  --ifm-navbar-link-hover-color: #ffffff;
+  --ifm-navbar-padding-vertical: 0;
+  --ifm-navbar-background-color: #00303d;
+  --ifm-link-decoration: underline;
+  --ifm-font-weight-bold: 600;
+  --ifm-font-weight-semibold: 600;
+  --ifm-footer-padding-horizontal: 0;
+  --ifm-footer-padding-vertical: 0;
+  --ifm-code-border-radius: 0;
+  --ifm-code-font-size: 95%;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-darkest: #00303d;
+  --ifm-color-primary-darker: #00303d;
+  --ifm-color-primary-dark: #00303d;
+  --ifm-color-primary: #00303d;
+  --utrecht-table-row-padding-inline-start: 0;
+  --utrecht-table-row-padding-inline-end: 0;
+  --utrecht-table-row-border-block-end-width: 1px;
+  --utrecht-table-row-border-block-end-color: #d1dfe3;
+  --utrecht-table-cell-icon-size: 1em;
+  --utrecht-table-cell-padding-inline-start: 8px;
+  --utrecht-table-cell-padding-inline-end: 8px;
+  --utrecht-table-cell-padding-block-start: 12px;
+  --utrecht-table-cell-padding-block-end: 12px;
+  --utrecht-table-header-cell-font-weight: 700;
+  --utrecht-table-header-border-block-end-width: 2px;
+  --utrecht-table-header-border-block-end-color: #d1dfe3;
+  --utrecht-table-border-width: 0;
+  --utrecht-table-border-color: #d1dfe3;
+  --utrecht-spotlight-section-background-color: #d1dfe3;
+  --utrecht-page-footer-color: #ffffff;
+  --utrecht-page-footer-background-color: #0d1f2a;
+  --utrecht-page-content-padding-block-end: 48px;
+  --utrecht-page-padding-inline-end: 20px;
+  --utrecht-page-padding-inline-start: 20px;
+  --utrecht-ordered-list-item-margin-block-start: 8px;
+  --utrecht-ordered-list-item-line-height: 1.5;
+  --utrecht-ordered-list-margin-block-start: 16px;
+  --utrecht-unordered-list-item-margin-block-start: 8px;
+  --utrecht-unordered-list-item-line-height: 1.5;
+  --utrecht-unordered-list-margin-block-start: 16px;
+  --utrecht-heading-6-margin-block-end: 16px;
+  --utrecht-heading-6-margin-block-start: 20px;
+  --utrecht-heading-6-font-size: 18px;
+  --utrecht-heading-5-margin-block-end: 16px;
+  --utrecht-heading-5-margin-block-start: 24px;
+  --utrecht-heading-5-font-size: 20px;
+  --utrecht-heading-4-margin-block-end: 16px;
+  --utrecht-heading-4-margin-block-start: 32px;
+  --utrecht-heading-4-font-size: 24px;
+  --utrecht-heading-3-margin-block-end: 16px;
+  --utrecht-heading-3-margin-block-start: 40px;
+  --utrecht-heading-3-font-size: 28px;
+  --utrecht-heading-2-margin-block-end: 16px;
+  --utrecht-heading-2-margin-block-start: 48px;
+  --utrecht-heading-2-font-size: 36px;
+  --utrecht-heading-1-line-height: 59.8px;
+  --utrecht-heading-1-margin-block-end: 16px;
+  --utrecht-heading-1-margin-block-start: 24px;
+  --utrecht-heading-1-font-size: 52px;
+  --utrecht-heading-font-weight: 600;
+  --utrecht-paragraph-lead-font-size: 22px;
+  --utrecht-paragraph-line-height: 1.5;
+  --utrecht-paragraph-margin-block-start: 12px;
+  --utrecht-paragraph-font-size: 18px;
+  --utrecht-color-sample-border-width: 1px;
+  --utrecht-color-sample-border-color: #606060;
+  --utrecht-code-block-margin-block-end: 16px;
+  --utrecht-code-block-padding-inline-start: 16px;
+  --utrecht-code-block-padding-inline-end: 16px;
+  --utrecht-code-block-padding-block-start: 16px;
+  --utrecht-code-block-padding-block-end: 16px;
+  --utrecht-code-block-line-height: 24px;
+  --utrecht-code-block-font-size: 18px;
+  --utrecht-breadcrumb-nav-separator-inline-size: 32px;
+  --utrecht-breadcrumb-nav-link-focus-color: #006fa3;
+  --utrecht-breadcrumb-nav-link-color: #006fa3;
+  --utrecht-breadcrumb-nav-item-padding-inline-start: 8px;
+  --utrecht-breadcrumb-nav-item-padding-inline-end: 8px;
+  --utrecht-breadcrumb-nav-item-padding-block-end: 8px;
+  --utrecht-breadcrumb-nav-item-padding-block-start: 8px;
+  --utrecht-badge-font-size: 16px;
+  --utrecht-badge-border-radius: 0;
+  --utrecht-button-secondary-action-color: #148839;
+  --utrecht-button-secondary-action-border-color: #148839;
+  --utrecht-button-secondary-action-background-color: #ffffff;
+  --utrecht-button-primary-action-color: #ffffff;
+  --utrecht-button-primary-action-background-color: #148839;
+  --utrecht-button-primary-action-border-color: #148839;
+  --utrecht-button-icon-size: 32px;
+  --utrecht-button-padding-inline-end: 16px;
+  --utrecht-button-padding-inline-start: 16px;
+  --utrecht-button-padding-block-end: 8px;
+  --utrecht-button-padding-block-start: 8px;
+  --utrecht-button-line-height: 1;
+  --utrecht-button-border-radius: 0;
+  --utrecht-button-font-size: 20px;
+  --utrecht-button-font-weight: 600;
+  --utrecht-button-color: #0d1f2a;
+  --utrecht-link-hover-text-decoration-thickness: max(1px, 0.1rem);
+  --utrecht-link-text-decoration-thickness: max(1px, 0.0625rem);
+  --utrecht-link-text-underline-offset: 0.2em;
+  --utrecht-link-text-decoration-color: #52757e;
+  --utrecht-link-color: #006fa3;
+  --utrecht-document-line-height: 1.5;
+  --utrecht-document-font-size: 18px;
+  --utrecht-document-color: #0d1f2a;
+  --utrecht-document-background-color: #ffffff;
+  --utrecht-article-max-inline-size: 90ch;
+  --utrecht-actions-activate-cursor: pointer;
+  --utrecht-space-around: 1;
+  --nlds-menu-item-selected-background-color: #0d1f2a;
+  --nlds-mobile-sidebar-background-color: hsl(192, 100%, 16%);
+  --nlds-page-header-background-color: #0d1f2a;
+  --nlds-interaction-color: hsl(199, 100%, 32%);
+  --nlds-container-border-color: hsl(193, 24%, 85%);
+  --nlds-document-subtle-color: hsl(192, 21%, 41%);
+  --nlds-document-inverse-color: #ffffff;
+  --nlds-document-inverse-background-color: #0d1f2a;
+  --nlds-document-color: #0d1f2a;
+  --nlds-document-background-color: #ffffff;
+  --nlds-focus-outline-offset: 0;
+  --nlds-focus-outline-width: 2px;
+  --nlds-focus-outline-style: dotted;
+  --nlds-focus-inverse-outline-color: #0d1f2a;
+  --nlds-focus-outline-color: #deff00;
+  --nlds-focus-color: #0d1f2a;
+  --nlds-focus-background-color: #deff00;
+  --nlds-valid-color: #148839;
+  --nlds-invalid-color: hsl(331, 63%, 47%);
+  --nlds-status-stable-color: hsl(0, 0%, 100%);
+  --nlds-status-stable-background-color: hsl(317, 48%, 31%);
+  --nlds-status-unstable-color: hsl(0, 0%, 100%);
+  --nlds-status-unstable-background-color: hsl(179, 100%, 21%);
+  --nlds-status-community-color: hsl(0, 0%, 100%);
+  --nlds-status-community-background-color: hsl(199, 100%, 34%);
+  --nlds-status-help-wanted-color: hsl(192, 100%, 16%);
+  --nlds-status-help-wanted-background-color: hsl(191, 19%, 82%);
+  --nlds-status-border-color: hsl(0, 0%, 100%);
+  --nlds-typography-monospace-font-family: "Fira Code VF";
+  --nlds-typography-alternative-font-family: "Fira Sans";
+  --nlds-typography-default-font-family: "Source Sans Pro";
+  --ifm-button-padding-horizontal: var(--utrecht-button-padding-inline-start);
+  --ifm-button-padding-vertical: var(--utrecht-button-padding-block-start);
+  --ifm-button-border-radius: var(--utrecht-button-border-radius);
+  --ifm-button-font-weight: var(--utrecht-button-font-weight);
+  --ifm-button-color: var(--utrecht-button-color);
+  --ifm-link-color: var(--nlds-interaction-color);
+  --ifm-footer-link-hover-color: var(--utrecht-link-color);
+  --ifm-footer-color: var(--utrecht-page-footer-color);
+  --ifm-footer-background-color: var(--utrecht-page-footer-background-color);
+  --ifm-h1-font-size: var(--utrecht-heading-1-font-size);
+  --ifm-heading-font-weight: var(--utrecht-heading-font-weight);
+  --ifm-background-color: var(--utrecht-document-background-color);
+  --utrecht-heading-font-family: var(--nlds-typography-alternative-font-family);
+  --utrecht-code-font-family: var(--nlds-typography-monospace-font-family);
+  --utrecht-breadcrumb-nav-separator-color: var(--nlds-document-subtle-color);
+  --utrecht-breadcrumb-nav-link-disabled-color: var(
+    --nlds-document-subtle-color
+  );
+  --utrecht-badge-color: var(--nlds-document-inverse-color);
+  --utrecht-badge-background-color: var(
+    --nlds-document-inverse-background-color
+  );
+  --utrecht-button-subtle-focus-color: var(--nlds-focus-color);
+  --utrecht-button-subtle-focus-background-color: var(
+    --nlds-focus-background-color
+  );
+  --utrecht-button-secondary-action-focus-color: var(--nlds-focus-color);
+  --utrecht-button-secondary-action-focus-background-color: var(
+    --nlds-focus-background-color
+  );
+  --utrecht-button-primary-action-focus-color: var(--nlds-focus-color);
+  --utrecht-button-primary-action-focus-background-color: var(
+    --nlds-focus-background-color
+  );
+  --utrecht-button-focus-color: var(--nlds-focus-color);
+  --utrecht-button-focus-background-color: var(--nlds-focus-background-color);
+  --utrecht-link-focus-color: var(--nlds-focus-color);
+  --utrecht-link-focus-background-color: var(--nlds-focus-background-color);
+  --utrecht-document-font-family: var(--nlds-typography-default-font-family);
+  --utrecht-focus-outline-offset: var(--nlds-focus-outline-offset);
+  --utrecht-focus-outline-style: var(--nlds-focus-outline-style);
+  --utrecht-focus-color: var(--nlds-focus-color);
+  --utrecht-focus-background-color: var(--nlds-focus-background-color);
+  --utrecht-focus-outline-color: var(--nlds-focus-outline-color);
+  --utrecht-focus-inverse-outline-color: var(
+    --nlds-focus-inverse-outline-color
+  );
+  --utrecht-focus-outline-width: var(--nlds-focus-outline-width);
+  --ifm-font-family-base: var(--utrecht-document-font-family);
+  --ifm-heading-font-family: var(--utrecht-heading-font-family);
+}
+
+.nlds-theme {
+  --utrecht-form-label-font-size: 1em;
+  --utrecht-toptask-link-font-size: var(
+    --utrecht-typography-scale-md-font-size
+  );
+  --utrecht-table-caption-font-size: var(
+    --utrecht-typography-scale-lg-font-size
+  );
+  --utrecht-search-bar-section-title-font-size: var(
+    --utrecht-typography-scale-md-font-size
+  );
+  --utrecht-search-bar-button-font-size: var(
+    --utrecht-typography-scale-sm-font-size
+  );
+  --utrecht-pre-heading-font-size: var(--utrecht-typography-scale-md-font-size);
+  --utrecht-paragraph-small-font-size: var(
+    --utrecht-typography-scale-sm-font-size
+  );
+  --utrecht-paragraph-lead-font-size: var(
+    --utrecht-typography-scale-xl-font-size
+  );
+  --utrecht-paragraph-font-size: var(--utrecht-typography-scale-md-font-size);
+  --utrecht-pagination-font-size: var(--utrecht-typography-scale-sm-font-size);
+  --utrecht-number-badge-font-size: var(
+    --utrecht-typography-scale-md-font-size
+  );
+  --utrecht-listbox-option-group-title-font-size: var(
+    --utrecht-typography-scale-md-font-size
+  );
+  --utrecht-heading-6-font-size: var(--utrecht-typography-scale-sm-font-size);
+  --utrecht-heading-5-font-size: var(--utrecht-typography-scale-sm-font-size);
+  --utrecht-heading-4-font-size: var(--utrecht-typography-scale-lg-font-size);
+  --utrecht-heading-3-font-size: var(--utrecht-typography-scale-xl-font-size);
+  --utrecht-heading-2-font-size: var(--utrecht-typography-scale-xl-font-size);
+  --utrecht-heading-1-font-size: var(--utrecht-typography-scale-4xl-font-size);
+  --utrecht-form-fieldset-legend-font-size: var(
+    --utrecht-typography-scale-md-font-size
+  );
+  --utrecht-form-control-font-size: var(
+    --utrecht-typography-scale-md-font-size
+  );
+  --utrecht-figure-caption-font-size: var(
+    --utrecht-typography-scale-sm-font-size
+  );
+  --utrecht-document-font-size: var(--utrecht-typography-scale-md-font-size);
+  --utrecht-code-block-font-size: var(--utrecht-typography-scale-md-font-size);
+  --utrecht-calendar-navigation-label-font-size: var(
+    --utrecht-typography-scale-lg-font-size
+  );
+  --utrecht-button-font-size: var(--utrecht-typography-scale-md-font-size);
+  --utrecht-breadcrumb-nav-font-size: var(
+    --utrecht-typography-scale-md-font-size
+  );
+  --utrecht-blockquote-content-font-size: var(
+    --utrecht-typography-scale-lg-font-size
+  );
+  --utrecht-blockquote-caption-font-size: var(
+    --utrecht-typography-scale-sm-font-size
+  );
+  --utrecht-badge-counter-font-size: var(
+    --utrecht-typography-scale-md-font-size
+  );
+  --denhaag-process-steps-sub-step-heading-font-size: var(
+    --utrecht-typography-scale-sm-font-size
+  );
+  --denhaag-process-steps-step-metadata-font-size: var(
+    --utrecht-typography-scale-sm-font-size
+  );
+  --denhaag-process-steps-step-marker-font-size: var(
+    --utrecht-typography-scale-sm-font-size
+  );
+  --denhaag-process-steps-step-heading-font-size: var(
+    --utrecht-typography-scale-lg-font-size
+  );
+  --denhaag-process-steps-step-description-font-size: var(
+    --utrecht-typography-scale-md-font-size
+  );
+
+  --utrecht-toptask-link-line-height: var(
+    --utrecht-typography-scale-md-line-height
+  );
+  --utrecht-table-caption-line-height: var(
+    --utrecht-typography-scale-lg-line-height
+  );
+  --utrecht-search-bar-section-title-line-height: var(
+    --utrecht-typography-scale-md-line-height
+  );
+  --utrecht-search-bar-button-line-height: var(
+    --utrecht-typography-scale-sm-line-height
+  );
+  --utrecht-pre-heading-line-height: var(
+    --utrecht-typography-scale-md-line-height
+  );
+  --utrecht-paragraph-small-line-height: var(
+    --utrecht-typography-scale-sm-line-height
+  );
+  --utrecht-paragraph-lead-line-height: var(
+    --utrecht-typography-scale-xl-line-height
+  );
+  --utrecht-paragraph-line-height: var(
+    --utrecht-typography-scale-md-line-height
+  );
+  --utrecht-pagination-line-height: var(
+    --utrecht-typography-scale-sm-line-height
+  );
+  --utrecht-number-badge-line-height: var(
+    --utrecht-typography-scale-md-line-height
+  );
+  --utrecht-listbox-option-group-title-line-height: var(
+    --utrecht-typography-scale-md-line-height
+  );
+  --utrecht-heading-6-line-height: var(
+    --utrecht-typography-scale-sm-line-height
+  );
+  --utrecht-heading-5-line-height: var(
+    --utrecht-typography-scale-sm-line-height
+  );
+  --utrecht-heading-4-line-height: var(
+    --utrecht-typography-scale-lg-line-height
+  );
+  --utrecht-heading-3-line-height: var(
+    --utrecht-typography-scale-xl-line-height
+  );
+  --utrecht-heading-2-line-height: var(
+    --utrecht-typography-scale-xl-line-height
+  );
+  --utrecht-heading-1-line-height: var(
+    --utrecht-typography-scale-4xl-line-height
+  );
+  --utrecht-form-fieldset-legend-line-height: var(
+    --utrecht-typography-scale-md-line-height
+  );
+  --utrecht-form-control-line-height: var(
+    --utrecht-typography-scale-md-line-height
+  );
+  --utrecht-figure-caption-line-height: var(
+    --utrecht-typography-scale-sm-line-height
+  );
+  --utrecht-document-line-height: var(
+    --utrecht-typography-scale-md-line-height
+  );
+  --utrecht-code-block-line-height: var(
+    --utrecht-typography-scale-md-line-height
+  );
+  --utrecht-calendar-navigation-label-line-height: var(
+    --utrecht-typography-scale-lg-line-height
+  );
+  --utrecht-button-line-height: var(--utrecht-typography-scale-md-line-height);
+  --utrecht-breadcrumb-nav-line-height: var(
+    --utrecht-typography-scale-md-line-height
+  );
+  --utrecht-blockquote-content-line-height: var(
+    --utrecht-typography-scale-lg-line-height
+  );
+  --utrecht-blockquote-caption-line-height: var(
+    --utrecht-typography-scale-sm-line-height
+  );
+  --utrecht-badge-counter-line-height: var(
+    --utrecht-typography-scale-md-line-height
+  );
+  --denhaag-process-steps-sub-step-heading-line-height: var(
+    --utrecht-typography-scale-sm-line-height
+  );
+  --denhaag-process-steps-step-metadata-line-height: var(
+    --utrecht-typography-scale-sm-line-height
+  );
+  --denhaag-process-steps-step-marker-line-height: var(
+    --utrecht-typography-scale-sm-line-height
+  );
+  --denhaag-process-steps-step-heading-line-height: var(
+    --utrecht-typography-scale-lg-line-height
+  );
+  --denhaag-process-steps-step-description-line-height: var(
+    --utrecht-typography-scale-md-line-height
+  );
+}
+
+.nlds-theme--viewport-scale {
+  --max-multiplier: 4;
+
+  /* stylelint-disable number-max-precision */
+  --ams-text-level-6-line-height: 1.6;
+  --ams-text-level-6-font-size: clamp(
+    0.9643rem,
+    calc(0.9054rem + 0.2946vw),
+    calc(1.2rem * var(--max-multiplier))
+  );
+  --ams-text-level-5-line-height: 1.6;
+  --ams-text-level-5-font-size: clamp(
+    1.125rem,
+    calc(1.0313rem + 0.4688vw),
+    calc(1.5rem * var(--max-multiplier))
+  );
+  --ams-text-level-4-line-height: 1.5;
+  --ams-text-level-4-font-size: clamp(
+    1.3125rem,
+    calc(1.1719rem + 0.7031vw),
+    calc(1.875rem * var(--max-multiplier))
+  );
+  --ams-text-level-3-line-height: 1.3;
+  --ams-text-level-3-font-size: clamp(
+    1.5313rem,
+    calc(1.3281rem + 1.0156vw),
+    calc(2.3438rem * var(--max-multiplier))
+  );
+  --ams-text-level-2-line-height: 1.25;
+  --ams-text-level-2-font-size: clamp(
+    1.7865rem,
+    calc(1.5007rem + 1.429vw),
+    calc(2.9297rem * var(--max-multiplier))
+  );
+  --ams-text-level-1-line-height: 1.2;
+  --ams-text-level-1-font-size: clamp(
+    2.0842rem,
+    calc(1.6897rem + 1.9724vw),
+    calc(3.6621rem * var(--max-multiplier))
+  );
+  --ams-text-level-0-line-height: 1.15;
+  --ams-text-level-0-font-size: clamp(
+    2.4316rem,
+    calc(1.8951rem + 2.6826vw),
+    calc(4.5776rem * var(--max-multiplier))
+  );
+  --ams-space-grid-xl: clamp(2rem, calc(0.75rem + 6.25vw), 7rem);
+  --ams-space-grid-lg: clamp(1.5rem, calc(0.5625rem + 4.6875vw), 5.25rem);
+  --ams-space-grid-md: clamp(1rem, calc(0.375rem + 3.125vw), 3.5rem);
+  --ams-space-grid-sm: clamp(0.5rem, calc(0.1875rem + 1.5625vw), 1.75rem);
+  --ams-space-grid-xs: clamp(0.25rem, calc(0.09375rem + 0.78125vw), 0.875rem);
+  --ams-space-xl: clamp(2.25rem, 2.0625rem + 0.9375vw, 3rem);
+  --ams-space-lg: clamp(1.6875rem, 1.5469rem + 0.7031vw, 2.25rem);
+  --ams-space-md: clamp(1.125rem, 1.0313rem + 0.4688vw, 1.5rem);
+  --ams-space-sm: clamp(0.5625rem, 0.5156rem + 0.2344vw, 0.75rem);
+  --ams-space-xs: clamp(0.2813rem, 0.2578rem + 0.1172vw, 0.375rem);
+}
+
+.nlds-theme--container-scale,
+.nlds-theme--viewport-scale {
+  /* line-height is new */
+  --utrecht-typography-scale-4xl-line-height: var(
+    --ams-text-level-0-line-height
+  );
+  --utrecht-typography-scale-3xl-line-height: var(
+    --ams-text-level-1-line-height
+  );
+  --utrecht-typography-scale-2xl-line-height: var(
+    --ams-text-level-2-line-height
+  );
+  --utrecht-typography-scale-xl-line-height: var(
+    --ams-text-level-3-line-height
+  );
+  --utrecht-typography-scale-lg-line-height: var(
+    --ams-text-level-4-line-height
+  );
+  --utrecht-typography-scale-md-line-height: var(
+    --ams-text-level-5-line-height
+  );
+  --utrecht-typography-scale-sm-line-height: var(
+    --ams-text-level-6-line-height
+  );
+
+  --utrecht-typography-scale-4xl-font-size: var(--ams-text-level-0-font-size);
+  --utrecht-typography-scale-3xl-font-size: var(--ams-text-level-1-font-size);
+  --utrecht-typography-scale-2xl-font-size: var(--ams-text-level-2-font-size);
+  --utrecht-typography-scale-xl-font-size: var(--ams-text-level-3-font-size);
+  --utrecht-typography-scale-lg-font-size: var(--ams-text-level-4-font-size);
+  --utrecht-typography-scale-md-font-size: var(--ams-text-level-5-font-size);
+  --utrecht-typography-scale-sm-font-size: var(--ams-text-level-6-font-size);
+
+  --utrecht-space-column-5xl: calc(
+    var(--ams-space-grid-xl) * var(--utrecht-space-column-scale, 1)
+  );
+  --utrecht-space-column-4xl: calc(
+    var(--ams-space-grid-lg) * var(--utrecht-space-column-scale, 1)
+  );
+  --utrecht-space-column-3xl: calc(
+    var(--ams-space-grid-md) * var(--utrecht-space-column-scale, 1)
+  );
+  --utrecht-space-column-2xl: calc(
+    var(--ams-space-grid-sm) * var(--utrecht-space-column-scale, 1) * 1.75
+  );
+  --utrecht-space-column-xl: calc(
+    var(--ams-space-grid-sm) * var(--utrecht-space-column-scale, 1) * 1.5
+  );
+  --utrecht-space-column-lg: calc(
+    var(--ams-space-grid-sm) * var(--utrecht-space-column-scale, 1) * 1.25
+  );
+  --utrecht-space-column-md: calc(
+    var(--ams-space-grid-sm) * var(--utrecht-space-column-scale, 1)
+  );
+  --utrecht-space-column-sm: calc(
+    var(--ams-space-grid-sm) * var(--utrecht-space-column-scale, 1) * 0.75
+  );
+  --utrecht-space-column-xs: calc(
+    var(--ams-space-grid-xs) * var(--utrecht-space-column-scale, 1)
+  );
+  --utrecht-space-column-2xs: calc(
+    var(--ams-space-grid-xs) * var(--utrecht-space-column-scale, 1) / 2
+  );
+  --utrecht-space-column-3xs: calc(
+    var(--ams-space-grid-xs) * var(--utrecht-space-column-scale, 1) / 4
+  );
+  --utrecht-space-column-4xs: calc(
+    var(--ams-space-grid-xs) * var(--utrecht-space-column-scale, 1) / 8
+  );
+  --utrecht-space-row-5xl: calc(
+    var(--ams-space-grid-xl) * var(--utrecht-space-row-scale, 1)
+  );
+  --utrecht-space-row-4xl: calc(
+    var(--ams-space-grid-lg) * var(--utrecht-space-row-scale, 1)
+  );
+  --utrecht-space-row-3xl: calc(
+    var(--ams-space-grid-md) * var(--utrecht-space-row-scale, 1)
+  );
+  --utrecht-space-row-2xl: calc(
+    var(--ams-space-grid-sm) * var(--utrecht-space-row-scale, 1) * 1.75
+  );
+  --utrecht-space-row-xl: calc(
+    var(--ams-space-grid-sm) * var(--utrecht-space-row-scale, 1) * 1.5
+  );
+  --utrecht-space-row-lg: calc(
+    var(--ams-space-grid-sm) * var(--utrecht-space-row-scale, 1) * 1.25
+  );
+  --utrecht-space-row-md: calc(
+    var(--ams-space-grid-sm) * var(--utrecht-space-row-scale, 1)
+  );
+  --utrecht-space-row-sm: calc(
+    var(--ams-space-grid-sm) * var(--utrecht-space-row-scale, 1) * 0.75
+  );
+  --utrecht-space-row-xs: calc(
+    var(--ams-space-grid-xs) * var(--utrecht-space-row-scale, 1)
+  );
+  --utrecht-space-row-2xs: calc(
+    var(--ams-space-grid-xs) * var(--utrecht-space-row-scale, 1) / 2
+  );
+  --utrecht-space-row-3xs: calc(
+    var(--ams-space-grid-xs) * var(--utrecht-space-row-scale, 1) / 4
+  );
+  --utrecht-space-row-4xs: calc(
+    var(--ams-space-grid-xs) * var(--utrecht-space-row-scale, 1) / 8
+  );
+  --utrecht-space-inline-4xl: calc(
+    var(--ams-space-xl) * var(--utrecht-space-inline-scale, 1) * 1.5
+  );
+  --utrecht-space-inline-3xl: calc(
+    var(--ams-space-xl) * var(--utrecht-space-inline-scale, 1)
+  );
+  --utrecht-space-inline-2xl: calc(
+    var(--ams-space-lg) * var(--utrecht-space-inline-scale, 1)
+  );
+  --utrecht-space-inline-xl: calc(
+    var(--ams-space-md) * var(--utrecht-space-inline-scale, 1) * 1.33
+  );
+  --utrecht-space-inline-lg: calc(
+    var(--ams-space-md) * var(--utrecht-space-inline-scale, 1) * 1.125
+  );
+  --utrecht-space-inline-md: calc(
+    var(--ams-space-md) * var(--utrecht-space-inline-scale, 1) * 0.9
+  );
+  --utrecht-space-inline-sm: calc(
+    var(--ams-space-md) * var(--utrecht-space-inline-scale, 1) * 0.75
+  );
+  --utrecht-space-inline-xs: calc(
+    var(--ams-space-sm) * var(--utrecht-space-inline-scale, 1)
+  );
+  --utrecht-space-inline-2xs: calc(
+    var(--ams-space-xs) * var(--utrecht-space-inline-scale, 1)
+  );
+  --utrecht-space-inline-3xs: calc(
+    var(--ams-space-xs) * var(--utrecht-space-inline-scale, 1) / 2
+  );
+  --utrecht-space-block-4xl: calc(
+    var(--ams-space-xl) * var(--utrecht-space-block-scale, 1) * 1.5
+  );
+  --utrecht-space-block-3xl: calc(
+    var(--ams-space-xl) * var(--utrecht-space-block-scale, 1)
+  );
+  --utrecht-space-block-2xl: calc(
+    var(--ams-space-lg) * var(--utrecht-space-block-scale, 1)
+  );
+  --utrecht-space-block-xl: calc(
+    var(--ams-space-md) * var(--utrecht-space-block-scale, 1) * 1.33
+  );
+  --utrecht-space-block-lg: calc(
+    var(--ams-space-md) * var(--utrecht-space-block-scale, 1) * 1.125
+  );
+  --utrecht-space-block-md: calc(
+    var(--ams-space-md) * var(--utrecht-space-block-scale, 1) * 0.9
+  );
+  --utrecht-space-block-sm: calc(
+    var(--ams-space-md) * var(--utrecht-space-block-scale, 1) * 0.75
+  );
+  --utrecht-space-block-xs: calc(
+    var(--ams-space-sm) * var(--utrecht-space-block-scale, 1)
+  );
+  --utrecht-space-block-2xs: calc(
+    var(--ams-space-xs) * var(--utrecht-space-block-scale, 1)
+  );
+  --utrecht-space-block-3xs: calc(
+    var(--ams-space-xs) * var(--utrecht-space-block-scale, 1) / 2
+  );
+}
+
+.nlds-theme--container-scale {
+  /* stylelint-disable number-max-precision */
+  --ams-text-level-6-line-height: 1.6;
+  --ams-text-level-6-font-size: clamp(
+    0.9643rem,
+    calc(0.9054rem + 0.2946cw),
+    1.2rem
+  );
+  --ams-text-level-5-line-height: 1.6;
+  --ams-text-level-5-font-size: clamp(
+    1.125rem,
+    calc(1.0313rem + 0.4688cw),
+    1.5rem
+  );
+  --ams-text-level-4-line-height: 1.5;
+  --ams-text-level-4-font-size: clamp(
+    1.3125rem,
+    calc(1.1719rem + 0.7031cw),
+    1.875rem
+  );
+  --ams-text-level-3-line-height: 1.3;
+  --ams-text-level-3-font-size: clamp(
+    1.5313rem,
+    calc(1.3281rem + 1.0156cw),
+    2.3438rem
+  );
+  --ams-text-level-2-line-height: 1.25;
+  --ams-text-level-2-font-size: clamp(
+    1.7865rem,
+    calc(1.5007rem + 1.429cw),
+    2.9297rem
+  );
+  --ams-text-level-1-line-height: 1.2;
+  --ams-text-level-1-font-size: clamp(
+    2.0842rem,
+    calc(1.6897rem + 1.9724cw),
+    3.6621rem
+  );
+  --ams-text-level-0-line-height: 1.15;
+  --ams-text-level-0-font-size: clamp(
+    2.4316rem,
+    calc(1.8951rem + 2.6826cw),
+    4.5776rem
+  );
+  --ams-space-grid-xl: clamp(2rem, calc(0.75rem + 6.25cw), 7rem);
+  --ams-space-grid-lg: clamp(1.5rem, calc(0.5625rem + 4.6875cw), 5.25rem);
+  --ams-space-grid-md: clamp(1rem, calc(0.375rem + 3.125cw), 3.5rem);
+  --ams-space-grid-sm: clamp(0.5rem, calc(0.1875rem + 1.5625cw), 1.75rem);
+  --ams-space-grid-xs: clamp(0.25rem, calc(0.09375rem + 0.78125cw), 0.875rem);
+  --ams-space-xl: clamp(2.25rem, 2.0625rem + 0.9375vw, 3rem);
+  --ams-space-lg: clamp(1.6875rem, 1.5469rem + 0.7031vw, 2.25rem);
+  --ams-space-md: clamp(1.125rem, 1.0313rem + 0.4688vw, 1.5rem);
+  --ams-space-sm: clamp(0.5625rem, 0.5156rem + 0.2344vw, 0.75rem);
+  --ams-space-xs: clamp(0.2813rem, 0.2578rem + 0.1172vw, 0.375rem);
+}
+
+.nlds-theme {
+  --purple: #74295f;
+  --white: #ffffff;
+  --utrecht-surface-background-color: var(--purple);
+  --utrecht-surface-color: var(--white);
+  --utrecht-document-background-color: var(--purple);
+  --utrecht-document-color: var(--white);
+  --kernteam-slide-background-color: var(--purple);
+  --kernteam-slide-color: var(--white);
+}

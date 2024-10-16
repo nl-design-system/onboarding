@@ -1,0 +1,61 @@
+.kernteam-slideshow {
+  /* --slides-width: 1280px; */
+  /* --slides-height: 1024px; */
+  --slides-width: 100vw;
+  --slides-height: 100vh;
+
+  display: grid;
+  container: inline-size;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: slides;
+  scroll-behavior: auto;
+
+  max-inline-size: var(--slides-width);
+  max-block-size: var(--slides-height);
+
+  --utrecht-heading-1-color: currentColor;
+  --utrecht-heading-2-color: currentColor;
+  --utrecht-heading-3-color: currentColor;
+  --utrecht-heading-4-color: currentColor;
+  --utrecht-heading-5-color: currentColor;
+  --utrecht-heading-6-color: currentColor;
+  --utrecht-paragraph-color: currentColor;
+}
+
+@media screen and (min-width: 1200px) {
+  .kernteam-slideshow {
+    grid-auto-flow: column;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+}
+
+.kernteam-slideshow--numbered .kernteam-slide::before {
+  content: counter(slides);
+  position: absolute;
+  top: 0.25rem;
+  left: 0.25rem;
+  width: 1.65em;
+  height: 1.65em;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+  font-size: 1.25rem;
+}
+
+@media (min-width: 1280px) {
+  .kernteam-slideshow--numbered .kernteam-slide::before {
+    inset-block-start: auto;
+    inset-block-end: 1rem;
+    inset-block-start: 1rem;
+  }
+}
+
+.kernteam-slideshow--numbered .kernteam-slide[data-topic]::before {
+  content: counter(slides) ": " attr(data-topic);
+  padding: 0.25em 0.4em;
+  width: auto;
+  border-radius: 0.5rem;
+}
