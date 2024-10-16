@@ -9,3 +9,16 @@ body {
   block-size: 100%;
   inline-size: 100%;
 }
+
+.utrecht-figure {
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+.utrecht-paragraph,
+.utrecht-unordered-list,
+.utrecht-ordered-list,
+.utrecht-figure,
+.utrecht-code-block {
+  margin-block: 0.5em;
+}

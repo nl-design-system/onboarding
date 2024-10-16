@@ -668,4 +668,10 @@
   --utrecht-document-color: var(--white);
   --kernteam-slide-background-color: var(--purple);
   --kernteam-slide-color: var(--white);
+  --utrecht-focus-background-color: #deff00;
+  --utrecht-focus-color: #0d1f2a;
+
+  --utrecht-link-focus-background-color: var(--utrecht-focus-background-color);
+  --utrecht-link-focus-color: var(--utrecht-focus-color);
+  --utrecht-link-active-color: var(--utrecht-focus-color);
 }
