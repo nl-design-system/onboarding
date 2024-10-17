@@ -23,6 +23,8 @@ jobs:
         run: npm ci
 
       - name: Build
+        env:
+          BASE_URL: "/onboarding/"
         run: npm run build
 
       - name: Upload artifact for GitHub Pages
